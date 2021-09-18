@@ -4,7 +4,6 @@ from pytube import YouTube
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-#GET https://www.googleapis.com/youtube/v3/activitiespart=snippet%2CcontentDetails&channelId={row[0]}&maxResults=25&regionCode=tw&key={#Enter the google API key}
 
 
 with open('data.csv', 'r') as file:
