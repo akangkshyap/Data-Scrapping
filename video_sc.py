@@ -12,7 +12,7 @@ with open('data.csv', 'r') as file:
    for row in reader:
       url = row[0]
       my_video = YouTube(url)
-      GET https://www.googleapis.com/youtube/v3/activitiespart=snippet%2CcontentDetails&channelId={row[0]}&maxResults=25&regionCode=tw&key={AIzaSyDm2QKhXtXSsK7XrPi-g3mDD15svbMkaS4}
+      GET https://www.googleapis.com/youtube/v3/activitiespart=snippet%2CcontentDetails&channelId={row[0]}&maxResults=25&regionCode=tw&key={#Enter the google API key}
       print("Video Title")
       print(my_video.title)
       print("Download video") 
